@@ -10,5 +10,20 @@
 
     <include layout="@layout/layout_home_toolbar" />
 
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/layout_home_member" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
 </LinearLayout>
 
