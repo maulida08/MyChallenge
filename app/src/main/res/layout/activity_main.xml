@@ -542,7 +542,7 @@
                 android:layout_height="150dp" />
 
             <TextView
-                android:text="@string/promo"
+                android:text="@string/addvertisement"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:paddingTop="10dp"
@@ -551,7 +551,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:text="@string/desc_promo"
+                android:text="@string/desc_addvertisement"
                 android:paddingTop="10dp"
                 android:paddingStart="20dp"
                 android:layout_width="match_parent"

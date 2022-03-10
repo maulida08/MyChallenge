@@ -18,7 +18,11 @@
     <string name="akses">Akses Cepat</string>
     <string name="voucher">Ada voucher nganggur, nih</string>
     <string name="resto">Restoran terdekat</string>
-    <string name="promo">Festival idaman perempuan! 😍</string>
-    <string name="desc_promo">Temukan kebutuhan cantik-mu hemat pakai GoPay dengan cashback 50%. Klik! 👈</string>
+    <string name="addvertisement">Festival idaman perempuan! 😍</string>
+    <string name="desc_addvertisement">Temukan kebutuhan cantik-mu hemat pakai GoPay dengan cashback 50%. Klik! 👈</string>
+    <string name="beranda">Beranda</string>
+    <string name="promo">Promo</string>
+    <string name="order">Pesanan</string>
+    <string name="chat">Chat</string>
 
 </resources>
