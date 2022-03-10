@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_baseline_arrow_forward_ios.xml" value="0.136" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_baseline_arrow_upward.xml" value="0.136" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_baseline_person.xml" value="0.136" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_gopay.xml" value="0.136" />
@@ -10,8 +11,12 @@
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/rectangle.xml" value="0.136" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/shape.xml" value="0.136" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/shape_gradient.xml" value="0.136" />
+        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/shape_radius.xml" value="0.136" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/shape_second.xml" value="0.136" />
-        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/activity_main.xml" value="0.4185185185185185" />
+        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/shape_whita.xml" value="0.136" />
+        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/shape_white.xml" value="0.136" />
+        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/shpae_rectangle.xml" value="0.136" />
+        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
       </map>
     </option>
   </component>

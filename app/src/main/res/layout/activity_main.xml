@@ -24,7 +24,7 @@
             <EditText
                 android:text="@string/search"
                 android:textColor="@color/black40"
-                android:background="@drawable/shape"
+                android:background="@drawable/shape_radius"
                 android:drawableLeft="@drawable/ic_baseline_search"
                 android:drawablePadding="10dp"
                 android:padding="10dp"
@@ -34,7 +34,7 @@
 
             <ImageButton
                 android:src="@drawable/ic_baseline_person"
-                android:background="@drawable/shape"
+                android:background="@drawable/shape_radius"
                 android:padding="10dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="10dp"
@@ -46,6 +46,8 @@
         <LinearLayout
             android:id="@+id/toolbar_second"
             app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             android:orientation="horizontal"
             android:background="@drawable/shape_second"
             android:padding="10dp"
@@ -56,8 +58,7 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
-                android:background="@drawable/rectangle"
-                android:backgroundTint="@color/white"
+                android:background="@drawable/shpae_rectangle"
                 android:orientation="vertical"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
@@ -102,7 +103,7 @@
 
                 <ImageButton
                     android:src="@drawable/ic_baseline_arrow_upward"
-                    android:background="@drawable/rectangle"
+                    android:background="@drawable/shpae_rectangle"
                     android:layout_width="35dp"
                     android:layout_height="30dp"
                     app:tint="@color/blue80" />
@@ -125,7 +126,7 @@
 
                 <ImageButton
                     android:src="@drawable/ic_baseline_add"
-                    android:background="@drawable/rectangle"
+                    android:background="@drawable/shpae_rectangle"
                     android:layout_marginStart="10dp"
                     android:layout_width="35dp"
                     android:layout_height="30dp"
@@ -149,7 +150,7 @@
 
                 <ImageButton
                     android:src="@drawable/ic_rocket"
-                    android:background="@drawable/rectangle"
+                    android:background="@drawable/shpae_rectangle"
                     android:layout_marginStart="7dp"
                     android:layout_width="35dp"
                     android:layout_height="30dp"
@@ -169,6 +170,8 @@
         <LinearLayout
             android:id="@+id/icon_group"
             app:layout_constraintTop_toBottomOf="@id/toolbar_second"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             android:orientation="horizontal"
             android:padding="10dp"
             android:layout_width="match_parent"
@@ -183,7 +186,7 @@
 
                 <ImageButton
                     android:src="@drawable/ic_motorbike"
-                    android:background="@drawable/rectangle"
+                    android:background="@drawable/shpae_rectangle"
                     android:scaleType="centerCrop"
                     android:layout_width="60dp"
                     android:layout_height="60dp"/>
@@ -205,7 +208,7 @@
 
                 <ImageButton
                     android:src="@drawable/ic_car"
-                    android:background="@drawable/rectangle"
+                    android:background="@drawable/shpae_rectangle"
                     android:scaleType="centerCrop"
                     android:layout_width="60dp"
                     android:layout_height="60dp"/>
@@ -227,7 +230,7 @@
 
                 <ImageButton
                     android:src="@drawable/ic_spoon_and_fork"
-                    android:background="@drawable/rectangle"
+                    android:background="@drawable/shpae_rectangle"
                     android:scaleType="centerCrop"
                     android:layout_width="60dp"
                     android:layout_height="60dp"/>
@@ -249,7 +252,7 @@
 
                 <ImageButton
                     android:src="@drawable/ic_resource_package"
-                    android:background="@drawable/rectangle"
+                    android:background="@drawable/shpae_rectangle"
                     android:scaleType="centerCrop"
                     android:layout_width="60dp"
                     android:layout_height="60dp"/>
@@ -266,6 +269,8 @@
         <LinearLayout
             android:id="@+id/icon_group_second"
             app:layout_constraintTop_toBottomOf="@id/icon_group"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             android:orientation="horizontal"
             android:padding="10dp"
             android:layout_width="match_parent"
@@ -280,7 +285,7 @@
 
                 <ImageButton
                     android:src="@drawable/ic_basket"
-                    android:background="@drawable/rectangle"
+                    android:background="@drawable/shpae_rectangle"
                     android:scaleType="centerCrop"
                     android:layout_width="60dp"
                     android:layout_height="60dp"/>
@@ -302,7 +307,7 @@
 
                 <ImageButton
                     android:src="@drawable/ic_smartphone"
-                    android:background="@drawable/rectangle"
+                    android:background="@drawable/shpae_rectangle"
                     android:scaleType="centerCrop"
                     android:layout_width="60dp"
                     android:layout_height="60dp"/>
@@ -324,7 +329,7 @@
 
                 <ImageButton
                     android:src="@drawable/ic_check_in"
-                    android:background="@drawable/rectangle"
+                    android:background="@drawable/shpae_rectangle"
                     android:scaleType="centerCrop"
                     android:layout_width="60dp"
                     android:layout_height="60dp"/>
@@ -346,7 +351,7 @@
 
                 <ImageButton
                     android:src="@drawable/ic_other"
-                    android:background="@drawable/rectangle"
+                    android:background="@drawable/shpae_rectangle"
                     android:scaleType="centerCrop"
                     android:layout_width="60dp"
                     android:layout_height="60dp"/>
@@ -363,6 +368,8 @@
         <LinearLayout
             android:id="@+id/xp"
             app:layout_constraintTop_toBottomOf="@id/icon_group_second"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             android:orientation="horizontal"
             android:background="@drawable/shape_gradient"
             android:padding="10dp"
@@ -421,13 +428,134 @@
 
             <ImageButton
                 android:src="@drawable/ic_baseline_arrow_forward_ios"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="30dp"
                 android:layout_marginTop="15dp"
-                android:background="@drawable/shape"
-                android:backgroundTint="@color/white"
+                android:background="@drawable/shape_radius"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/akses"
+            app:layout_constraintTop_toBottomOf="@id/xp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/akses"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/voucher"
+            app:layout_constraintTop_toBottomOf="@id/akses"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/shape_white"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/ic_discount"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:text="@string/voucher"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:src="@drawable/ic_baseline_arrow_forward_ios"
+                    android:background="@drawable/shape_radius"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="130dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/shape_white"
+                android:backgroundTint="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/ic_spoon_and_fork"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:text="@string/resto"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:src="@drawable/ic_baseline_arrow_forward_ios"
+                    android:background="@drawable/shape_radius"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="180dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/advertisement"
+            app:layout_constraintTop_toBottomOf="@id/voucher"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shpae_rectangle"
+            android:backgroundTint="@color/black10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/gopay_promo"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+            <TextView
+                android:text="@string/promo"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="@string/desc_promo"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
