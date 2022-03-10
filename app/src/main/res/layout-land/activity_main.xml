@@ -18,31 +18,26 @@
             app:layout_constraintStart_toStartOf="parent"
             android:background="@color/green60"
             android:padding="15dp"
-            android:weightSum="100"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <EditText
                 android:text="@string/search"
-                android:textSize="15dp"
                 android:textColor="@color/black40"
                 android:background="@drawable/shape_radius"
                 android:drawableLeft="@drawable/ic_baseline_search"
                 android:drawablePadding="10dp"
                 android:padding="10dp"
                 android:layout_marginStart="10dp"
-                android:layout_weight="99"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <ImageButton
-                android:id="@+id/person"
                 android:src="@drawable/ic_baseline_person"
                 android:background="@drawable/shape_radius"
                 android:padding="10dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="10dp"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -59,14 +54,12 @@
             android:layout_marginTop="10dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:weightSum="100"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <LinearLayout
                 android:background="@drawable/shpae_rectangle"
                 android:orientation="vertical"
-                android:layout_weight="70"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
@@ -104,7 +97,6 @@
             <LinearLayout
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="10"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -128,7 +120,6 @@
             <LinearLayout
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="10"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -153,7 +144,6 @@
             <LinearLayout
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="10"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -184,14 +174,12 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:orientation="horizontal"
             android:padding="10dp"
-            android:weightSum="100"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="25"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -214,7 +202,6 @@
             <LinearLayout
                 android:layout_marginStart="35dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="25"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -237,7 +224,6 @@
             <LinearLayout
                 android:layout_marginStart="35dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="25"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -260,7 +246,6 @@
             <LinearLayout
                 android:layout_marginStart="35dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="25"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -288,7 +273,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:orientation="horizontal"
             android:padding="10dp"
-            android:weightSum="100"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -296,7 +280,6 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:orientation="vertical"
-                android:layout_weight="25"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -318,7 +301,6 @@
             <LinearLayout
                 android:layout_marginStart="35dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="25"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -341,7 +323,6 @@
             <LinearLayout
                 android:layout_marginStart="35dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="25"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -364,7 +345,6 @@
             <LinearLayout
                 android:layout_marginStart="35dp"
                 android:layout_marginTop="20dp"
-                android:layout_weight="25"
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -560,21 +540,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="180dp" />
 
-            <TextView
-                android:text="@string/addvertisement"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:paddingTop="10dp"
-                android:paddingStart="20dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+<!--            <TextView-->
+<!--                android:text="@string/promo"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:paddingTop="10dp"-->
+<!--                android:paddingStart="20dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content" />-->
 
-            <TextView
-                android:text="@string/desc_addvertisement"
-                android:paddingTop="10dp"
-                android:paddingStart="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+<!--            <TextView-->
+<!--                android:text="@string/desc_promo"-->
+<!--                android:paddingTop="10dp"-->
+<!--                android:paddingStart="20dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
