@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/green40"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="8dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_toStartOf="@+id/icon"
+        android:layout_marginEnd="5dp"
+        app:cardCornerRadius="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/ic_baseline_search"
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="@string/text_search"
+                android:gravity="center_vertical"
+                android:textSize="12dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/icon"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:src="@drawable/ic_envelope"
+            android:layout_marginHorizontal="5dp"
+            app:tint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:src="@drawable/ic_bell"
+            android:layout_marginHorizontal="5dp"
+            app:tint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:src="@drawable/ic_cart"
+            android:layout_marginHorizontal="5dp"
+            app:tint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:src="@drawable/ic_menu"
+            android:layout_marginStart="5dp"
+            app:tint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

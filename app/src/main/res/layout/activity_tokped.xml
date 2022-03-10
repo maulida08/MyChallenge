@@ -8,4 +8,7 @@
     android:background="@color/white"
     tools:context=".TokpedActivity">
 
+    <include layout="@layout/layout_home_toolbar" />
+
 </LinearLayout>
+
