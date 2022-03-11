@@ -3,16 +3,31 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_marginEnd="10dp"
-    app:cardCornerRadius="10dp">
+    app:cardCornerRadius="20dp"
+    android:padding="15dp">
 
     <ImageView
         android:src="@drawable/discount_tokped"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        app:cardCornerRadius="10dp"
-        android:scaleType="centerCrop"
+        android:scaleType="center"
+        android:layout_marginEnd="15dp"
         android:layout_width="320dp"
-        android:layout_height="180dp" />
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:src="@drawable/gopay_promo"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="15dp"
+        android:layout_width="320dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:src="@drawable/iklan_gojek"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="15dp"
+        android:layout_width="320dp"
+        android:layout_height="100dp" />
+
 
 </LinearLayout>

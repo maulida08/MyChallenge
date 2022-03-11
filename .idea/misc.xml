@@ -7,10 +7,12 @@
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_baseline_arrow_forward_ios.xml" value="0.136" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_baseline_arrow_upward.xml" value="0.136" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_baseline_person.xml" value="0.136" />
+        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_care.xml" value="0.1155" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_gopay.xml" value="0.136" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_placeholder.xml" value="0.136" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_rocket.xml" value="0.136" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_store.xml" value="0.116" />
+        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_tent.xml" value="0.1155" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/ic_wallet.xml" value="0.116" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/rectangle.xml" value="0.136" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/drawable/shape.xml" value="0.136" />
@@ -25,10 +27,11 @@
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout-land/layoute_home_member.xml" value="0.33994589720468893" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/activity_main.xml" value="0.15913887716336006" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/activity_tokped.xml" value="0.15913887716336006" />
-        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/home_member.xml" value="0.34444444444444444" />
+        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/home_member.xml" value="0.15913887716336006" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/home_toolbar.xml" value="0.15913887716336006" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/item_home.xml" value="0.25" />
-        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/item_home_slider.xml" value="0.1611799914493373" />
+        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/item_home_second.xml" value="0.25" />
+        <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/item_home_slider.xml" value="0.15913887716336006" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/layout_home_member.xml" value="0.1611799914493373" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/layout_home_toolbar.xml" value="0.1" />
         <entry key="..\:/Users/maulidaa/AndroidStudioProjects/MyChallenge/app/src/main/res/layout/product_slider.xml" value="0.1611799914493373" />

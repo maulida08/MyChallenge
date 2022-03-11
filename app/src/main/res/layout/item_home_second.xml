@@ -16,12 +16,12 @@
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:src="@drawable/ic_store"
+            android:src="@drawable/ic_care"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:text="Official Store"
+            android:text="Peduli Lindungi"
             android:textColor="@color/black"
             android:maxLines="2"
             android:ellipsize="end"
@@ -37,12 +37,12 @@
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:src="@drawable/ic_all"
+            android:src="@drawable/ic_health"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:text="Lihat Semua"
+            android:text="Bangga Lokal"
             android:textColor="@color/black"
             android:maxLines="2"
             android:ellipsize="end"
@@ -58,12 +58,12 @@
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:src="@drawable/ic_groceries"
+            android:src="@drawable/ic_tent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:text="Kebutuhsn Harian"
+            android:text="Bazar Hari Ini"
             android:textColor="@color/black"
             android:maxLines="2"
             android:ellipsize="end"
@@ -79,13 +79,12 @@
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:src="@drawable/ic_gadget"
+            android:src="@drawable/ic_play"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:gravity="center_horizontal"
-            android:text="Handphone &amp; Telepon"
+            android:text="Live Shopping"
             android:textColor="@color/black"
             android:maxLines="2"
             android:ellipsize="end"
@@ -101,34 +100,12 @@
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:src="@drawable/ic_paper"
+            android:src="@drawable/ic_balloon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:gravity="center_horizontal"
-            android:text="Top-Up &amp; Tagihan"
-            android:textColor="@color/black"
-            android:maxLines="2"
-            android:ellipsize="end"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:padding="5dp"
-        android:orientation="vertical"
-        android:gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageButton
-            android:src="@drawable/ic_money"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:text="Keuangan"
+            android:text="Tokopedia Seru"
             android:textColor="@color/black"
             android:maxLines="2"
             android:ellipsize="end"
