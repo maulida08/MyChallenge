@@ -14,132 +14,134 @@
         android:layout_height="60dp" />
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <LinearLayout
-            android:paddingHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
             android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:paddingHorizontal="10dp">
 
             <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:src="@drawable/ic_placeholder"
-                app:tint="@color/white"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                app:tint="@color/white" />
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
                 android:text="Dikirim ke"
-                android:textSize="11dp"
-                android:layout_marginStart="5dp"
                 android:textColor="@color/white"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:textSize="11dp" />
 
             <TextView
-                android:text="Rumah kamu"
-                android:textSize="11dp"
-                android:textColor="@color/white"
-                android:textStyle="bold"
-                android:layout_marginStart="5dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Rumah kamu"
+                android:textColor="@color/white"
+                android:textSize="11dp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
         <com.google.android.material.card.MaterialCardView
-            app:cardElevation="5dp"
-            android:layout_marginHorizontal="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:cardElevation="5dp">
 
             <LinearLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:paddingVertical="5dp"
-                    android:paddingHorizontal="10dp"
-                    android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="5dp">
 
                     <androidx.appcompat.widget.AppCompatImageView
                         android:id="@+id/gopay"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        android:src="@drawable/ic_wallet"
-                        android:background="@color/blue60"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@color/blue60"
+                        android:src="@drawable/ic_wallet"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/point"
-                        app:layout_constraintStart_toEndOf="@id/gopay"
-                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
                         android:text="Rp109.048"
                         android:textSize="11dp"
                         android:textStyle="bold"
-                        android:layout_marginStart="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        app:layout_constraintStart_toEndOf="@id/gopay"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        app:layout_constraintTop_toBottomOf="@id/point"                                app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toEndOf="@id/gopay"
-                        android:visibility="visible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
                         android:text="164.433 Coins"
                         android:textSize="11dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:visibility="visible"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/gopay"
+                        app:layout_constraintTop_toBottomOf="@id/point" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:paddingVertical="5dp"
-                    android:paddingHorizontal="10dp"
-                    android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="5dp">
 
                     <androidx.appcompat.widget.AppCompatImageView
                         android:id="@+id/member"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        android:src="@drawable/ic_medal"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_medal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/member_status"
-                        app:layout_constraintStart_toEndOf="@id/member"
-                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
                         android:text="Member Gold"
                         android:textSize="11dp"
                         android:textStyle="bold"
-                        android:layout_marginStart="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        app:layout_constraintStart_toEndOf="@id/member"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        app:layout_constraintTop_toBottomOf="@id/member_status"                                app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toEndOf="@id/member"
-                        android:visibility="visible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
                         android:text="23 kupon"
                         android:textSize="11dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:visibility="visible"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/member"
+                        app:layout_constraintTop_toBottomOf="@id/member_status" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
